@@ -1,0 +1,27 @@
+
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+
+###> symfony/phpunit-bridge ###
+.phpunit.result.cache
+/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+###> postgresql/data ###
+/docker/postgres/data/
+###< postgresql/data ###
+
+###> rabbitmq/data ###
+/docker/rabbitmq/data/
+###< rabbitmq/data ###
+
+###> redis/data ###
+/docker/redis/data/
+###< redis/data ###
